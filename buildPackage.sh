@@ -4,7 +4,7 @@
 ### 2012-11-1 adapts ideas from
 ### http://stackoverflow.com/questions/4380849/roxygen-package-building-and-use-rd2-true
 
-PACKAGE="portableParallelStreams"
+PACKAGE="portableParallelSeeds"
 
 
 VERSION=$(awk -F": +" '/^Version/ { print $2 }' ${PACKAGE}/DESCRIPTION)
