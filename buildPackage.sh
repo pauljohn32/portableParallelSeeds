@@ -65,7 +65,7 @@ if [ $result = "y" ]; then
 rm -rf ${PACKAGE}.Rcheck
 fi
 
-echo "Consider scp ${PACKAGE}_${VERSION}.tar.gz hpc.quant.ku.edu:/tools/kran/src/contrib"
+echo "Consider scp ${PACKAGE}_${VERSION}.tar.gz rweb.crmda.ku.edu:/web/htdocs.rweb/kran/src/contrib"
 echo "Consider sending to win builder"
 echo "Consider uploading windows version"
 echo  "scp portableParallelSeeds_${VERSION}.zip hpc.quant.ku.edu:/tools/kran/bin/windows/contrib/2.15"
